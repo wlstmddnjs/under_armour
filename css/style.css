@@ -2029,6 +2029,214 @@ footer a{
         margin-top: 30px;
     }
 }
+
+@media(max-width:400px){
+    /* .logo svg{
+        width: 60%;
+        height: 60%;
+    } */
+    header{
+        width: 375px;
+    }
+    /* .header-wrap{
+        width: 375px;
+    } */
+    
+    /* m-sec-1 */
+    .sec-1{
+        height: 300px;
+    }
+    .sec-1_wrap{
+        /* width: 343px; */
+        height: 80%;
+        margin: 0 auto;
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .con-img1{
+        background: url(../img/m-sec1-1.jpg) no-repeat center;
+        background-size: cover;
+        width: 200px;
+        height: 230px;
+    }
+
+    .con-img2{
+        background: url(../img/m-sec1-2.jpg) no-repeat center;
+        background-size: cover;
+        width: 140px;
+        height: 230px;
+    }
+
+    .txt-box{
+        width: 200px;
+        height: 23px;
+    }
+    .txt-box1{
+        height: 23px;
+        width: 140px;
+    }
+    .txt-box p,
+    .txt-box1 p{
+        line-height: 23px;
+        font-size: 8px;
+    }
+    .con2{
+        margin-left: 4px;
+        height: 300px;
+    }
+    .con1{
+        height: 300px;
+    }
+
+    .sec-2_m-content{
+        width: 343px;
+    }
+    .conbox{
+        width: 343px;
+    }
+
+    /* m-sec3 */
+    .sec-3_txt{
+        display: none;
+    }
+    .sec-3_wrap{
+        /* width: 375px; */
+        height: 270px;
+    }
+    .sec-3_img{
+        background-size: contain;
+    }
+    .m_sec-3-txt{
+        display: block;
+        font-size: 24px;
+    }
+    .m_sec-3_btn{
+        display: flex;
+        justify-content: space-between;
+    }
+    .m_sec-3_btn h2{
+        font-size: 18px;
+    }
+    .m_sec-3_btn span{
+        width: 100px;
+        height: 40px;
+        background-color: #171212;
+        border-radius: 10px;
+    }
+    .m_sec-3_btn a{
+        display: block;
+        font-size: 11px;
+        color: #fff;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    /* m-sec-4 */
+    .sec-4-constens2{
+        margin-top: 40px;
+    }
+    .sec-4_head h1{
+        font-size: 20px;
+        margin-bottom: 8px;
+        padding-top: 40px;
+    }
+    /* .con1-sub-img{
+        width: 160px;
+        height: 220px;
+    } */
+    /* .con2-sub-img{
+        width: 160px;
+        height: 220px;
+    } */
+    .name{
+        font-size: 14px;
+    }
+    .con1-sub-img, .con2-sub-img{
+        margin-right: 0;
+    }
+    .con1-sub-img .sub-img,
+    .con2-sub-img .sub-img{
+        height: 212px;
+    }
+    .sub-img1{
+        background: url(../img/sec-4-1\ 375m.jpg) no-repeat center;
+    }
+    .hover_img1{
+        background: url(../img/sec-4-1\ 375m\ hover.jpg) no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: 0.3s;
+    }
+    .sub-img2{
+        background: url(../img/sec-4-2\ 375m.jpg) no-repeat center;
+    }
+    
+    .hover_img2{
+        background: url(../img/sec-4-2\ 375m\ hover.jpg) no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    .sub-img3{
+        background: url(../img/sec-4-4\ 375m.jpg) no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .hover_img3{
+        background: url(../img/sec-4-4\ 375m\ hover.jpg) no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    .sub-img4{
+        background: url(../img/sec-4-3\ 375m.jpg) no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .hover_img4{
+        background: url(../img/sec-4-3\ 375m\ hover.jpg) no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    /* sec-5 영역 */
+    .sec-5-wrap{
+        width: 100%;
+    }
+    .sec-5 h2{
+        display: none;
+    }
+    .sec-5-btn{
+        width: 70px;
+        height: 30px;
+        font-size: 11px;
+        line-height: 30px;
+        margin-top: 25px;
+    }
+    .img1_txt{
+        margin-left: 15px;
+    }
+    footer{
+        margin-top: 0;
+    }
+}
 @media(max-width:375px){
     /* .logo svg{
         width: 60%;
