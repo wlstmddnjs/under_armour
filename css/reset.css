@@ -4,7 +4,8 @@
     padding: 0;
     margin: 0;
     font-family: fontawesome;
-    font-family: 'Pretendard'
+    font-family: 'Pretendard';
+    box-sizing: border-box;
 }
 
 a{
